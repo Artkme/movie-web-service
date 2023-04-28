@@ -5,10 +5,8 @@ import ge.artkme.webapps.exception.DBManagerException;
 import ge.artkme.webapps.exception.MovieAlreadyExistsException;
 import ge.artkme.webapps.exception.MovieNotFoundException;
 import ge.artkme.webapps.model.Movie;
-import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
-@Path("/movies")
 public class movieWs implements MoviesWsDao {
 
     @Override
